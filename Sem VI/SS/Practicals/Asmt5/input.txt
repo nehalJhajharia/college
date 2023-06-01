@@ -1,0 +1,12 @@
+8
+
+E=TR
+R=+TR
+R=#
+T=FW
+W=*FW
+W=#
+F=c
+F=(E)
+
+c=c+c
