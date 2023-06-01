@@ -1,0 +1,92 @@
+* {
+    top: 0px;
+    left: 0px;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Akaya Kanadaka', cursive;
+    color:#005A34;
+}
+
+.home {
+    position: fixed;
+    height: 3vw;
+    width: 3vw;
+    margin: 2vw 0 0 2vw;
+    text-decoration: none;
+    background-image: url("back_home.jpg");
+    background-size: 3vw 3vw;
+}
+
+.pic {
+    margin: auto;
+    margin-top: 3vw;
+    width: 40vw;
+}
+
+.pic-background {
+	width: 25vw;
+	height: 16vw;
+    border-radius: 50%;
+    background-image: url("groot.jpg");
+    background-position: center;
+    background-size: 25vw 16vw;
+    margin: auto;
+}
+.pic > h1 {
+    display: inline-block;
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5vw;
+}
+.pic > p {
+    top: -2vw;
+    display: inline-block;
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.4vw;
+}
+
+table {
+    margin-left: 1vw;
+    display: inline-block;
+}
+td {
+    padding-left: 2vw;
+    font-size: 2vw;
+}
+td > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a > img {
+    float: right;
+    margin-right: 1vw;
+    display: inline-block;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+}
+
+.linkedIn {
+    margin-right: 1vw;
+    display: inline-block;
+    float: right;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    background-color: rgb(46, 131, 201);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: sans-serif;
+}
+
+nav {
+    margin-top: -3vw;
+}

@@ -1,0 +1,55 @@
+body {
+    background-color: whitesmoke;
+}
+
+div.image {
+    position: relative;
+    z-index: -1;
+    float: left;
+    top: 100px;
+    left: 100px;
+    max-width: 400px;
+    max-height: 450px;
+    border-width: 5px;
+    border-style: inset;
+    border-color:whitesmoke;
+    border-radius: 3px;
+}
+div.heading {
+    position: fixed;
+    font-weight: 500;
+    font-family: 'Courier New';
+    color:rgba(55, 30, 68, 0.809);
+    width: 98%;
+    background-color: thistle;
+    border-width: 5px;
+    border-style: inset;
+}
+
+table.personalia {
+    width: 55%;
+    float: right;
+    padding-top: 100px;
+}
+table.contact {
+    padding-top: 100px;
+    padding-right: 800px;
+    padding-left: 100px;
+    width: 40%;
+}
+
+td {
+    height: 35px;
+    font-family:'Lora', serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    color:rgba(58, 4, 105, 0.912);
+}
+
+hr {
+    color:rgba(67, 130, 189, 0.727);
+    height: 70px;
+    background-color:rgba(67, 130, 189, 0.727);
+    border-style: outset;
+    border-width: 4px;
+}
